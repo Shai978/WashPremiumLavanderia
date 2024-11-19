@@ -1,0 +1,29 @@
+#preguntas-frecuentes {
+    text-align: center;
+    padding: 20px;
+}
+
+.faq-list, .horarios-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.faq-item, .horarios-item {
+    margin-bottom: 15px;
+    font-family: 'Arial', sans-serif;
+}
+
+.faq-icon, .horarios-icon {
+    color: #ff6600;
+    margin-right: 10px;
+}
+
+
+
+.faq-item strong, .horarios-item strong {
+    font-weight: bold;
+}
+
+#calendario {
+    margin-top: 30px;
+}

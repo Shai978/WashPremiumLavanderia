@@ -1,0 +1,45 @@
+.imagenes-ubicacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#imagen-ubicacion {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#imagen-ubicacion:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#ubicacion a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#ubicacion a:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .imagenes-ubicacion {
+        gap: 15px;
+    }
+
+    #imagen-ubicacion {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    #imagen-ubicacion {
+        width: 100%;
+    }
+}

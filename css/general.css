@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/026/867/196/non_2x/blue-wave-footer-free-png.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+header .logo {
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(0, 47, 255);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s ease-in-out;
+}
+
+nav ul li a i {
+    margin-right: 8px;
+}
+
+nav ul li a:hover {
+    background-color: #008cff;
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+
+nav ul li a:focus, nav ul li a:hover {
+    outline: none;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+a {
+    color: #3498db;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+header .logo {
+    width: 550px;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 40px;
+    margin: 20px;
+    background: rgba(179, 255, 255, 0.849);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 255, 255, 0.76);
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #009688;
+    text-shadow: 0 0 8px #00bcd4, 0 0 15px #00bcd4;
+}
+
+section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: center;
+    color: #333;
+}
+
+.fas, .fa {
+    color: #ff6600;
+}
+
+@media (max-width: 768px) {
+    header .logo {
+        width: 100%;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    section {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    section h2 {
+        font-size: 2em;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    section h2 {
+        font-size: 1.8em;
+    }
+
+    section p {
+        font-size: 1em;
+    }
+
+    footer {
+        padding: 20px;
+    }
+}
